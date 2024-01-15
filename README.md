@@ -2,8 +2,9 @@
 Fixes MC-7807 (https://bugs.mojang.com/browse/MC-7807).
 <br>
 This project fixes the bug in 1.7.10 that used to make thrown eggs create snowball particles when they hit a block.
-
-
+<br>
+<br>
+<br>
 ## Use of anatawa12's Fork of ForgeGradle 1.2 within Project:
 The source code of this project uses anatawa12's fork of ForgeGradle 1.2 as a library under the GNU Lesser General Public License v2.1 (https://choosealicense.com/licenses/lgpl-2.1/).
  
