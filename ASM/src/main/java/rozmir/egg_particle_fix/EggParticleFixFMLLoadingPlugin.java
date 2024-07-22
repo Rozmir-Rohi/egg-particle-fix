@@ -8,8 +8,8 @@ import net.minecraft.launchwrapper.Launch;
 
 
 @IFMLLoadingPlugin.MCVersion("1.7.10")
-@IFMLLoadingPlugin.Name("Wolf Altar Replacement FML Loading Plugin")
-@IFMLLoadingPlugin.TransformerExclusions("rozmir.wolf_altar_replacement")
+@IFMLLoadingPlugin.Name("Egg Particle Fix FML Loading Plugin")
+@IFMLLoadingPlugin.TransformerExclusions("rozmir.egg_particle_fix")
 
 public class EggParticleFixFMLLoadingPlugin implements IFMLLoadingPlugin {
 	public static File location;

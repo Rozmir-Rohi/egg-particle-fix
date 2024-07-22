@@ -18,8 +18,8 @@ public class EggParticleFixClassTransformer implements IClassTransformer {
 	public byte[] transform(String className, String transformedName, byte[] classBeingTransformed) 
 	{
 	   if (
-			   className.equals("zl") //obfuscated name for EntityEgg class
-			   || className.equals("net.minecraft.entity.projectile.EntityEgg") //unobfuscated name
+			   className.equals("zl") //name for the EntityEgg class in the obfuscated environment
+			   || className.equals("net.minecraft.entity.projectile.EntityEgg") //name for the EntityEgg class in the unobfuscated environment
 		  )
 	   {
 		   System.out.println("[Egg Particle Fix]: Currently inside the transformer and about to patch: " + className);
