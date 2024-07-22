@@ -5,7 +5,7 @@
   "description": "Fixes egg particles for Minecraft 1.7.10.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://modrinth.com/project/egg-particle-fix",
   "updateUrl": "",
   "authorList": ["Rozmir_Rohi"],
   "credits": "",
