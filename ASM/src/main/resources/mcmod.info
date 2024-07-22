@@ -1,0 +1,16 @@
+[
+{
+  "modid": "eggparticlefix",
+  "name": "Egg Particle Fix ASM",
+  "description": "Uses ASM to fix the egg particles for Minecraft 1.7.10",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Rozmir"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
