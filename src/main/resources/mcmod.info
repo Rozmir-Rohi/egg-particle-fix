@@ -1,0 +1,16 @@
+[
+{
+  "modid": "eggparticlefix",
+  "name": "Egg Particle Fix",
+  "description": "Fixes egg particles for Minecraft 1.7.10.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Rozmir_Rohi"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
