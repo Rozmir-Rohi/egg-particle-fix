@@ -18,11 +18,10 @@ public class EventReplaceEntityEgg
         	
         	if (((EntityThrowable) event.entity).getThrower() instanceof EntityLivingBase) //if there is a thrower add the thrower to the projectile entity data
         	{
-        		//egg = new EntityEggExtension(event.entity.worldObj, ((EntityThrowable) event.entity).getThrower());
         		event.entity.worldObj.spawnEntityInWorld(new EntityEggExtension(event.entity.worldObj, ((EntityThrowable) event.entity).getThrower()));
         	}
         	else
-        	{//manually set motion when not thrown by the player
+        	{   //manually set motion when not thrown by the player
         		egg.setThrowableHeading(event.entity.motionX, event.entity.motionY, event.entity.motionZ, 1.5F, 1.0F);
         		egg.copyLocationAndAnglesFrom((Entity)event.entity);
             	egg.worldObj.spawnEntityInWorld((Entity)egg);
