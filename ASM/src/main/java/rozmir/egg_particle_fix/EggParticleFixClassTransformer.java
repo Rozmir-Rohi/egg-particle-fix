@@ -28,15 +28,15 @@ public class EggParticleFixClassTransformer implements IClassTransformer {
 	   return classBeingTransformed;
 	}
 
-	public byte[] patchClassInJar(String name, byte[] bytes, String obfuscatedName, File location)
+	public byte[] patchClassInJar(String className, byte[] bytes, String obfuscatedName, File location)
 	{
 		try 
 		{
 			ZipFile zipFile = new ZipFile(location);
-		    ZipEntry entry = zipFile.getEntry(name.replace('.', '/') + ".class");
+		    ZipEntry entry = zipFile.getEntry(className.replace('.', '/') + ".class");
 		    if (entry == null) 
 		    {
-		    	System.out.println("[Egg Particle Fix]: " + name + " not found in " + location.getName());
+		    	System.out.println("[Egg Particle Fix]: " + className + " not found in " + location.getName());
 		    }
 		    else
 		    {
@@ -44,7 +44,7 @@ public class EggParticleFixClassTransformer implements IClassTransformer {
 		        bytes = new byte[(int)entry.getSize()];
 		        zipFileInputStream.read(bytes);
 		        zipFileInputStream.close();
-		        System.out.println("[Egg Particle Fix]: Class " + name + " has been patched!");
+		        System.out.println("[Egg Particle Fix]: Class " + className + " has been patched!");
 		     }
 		
 		     zipFile.close();
@@ -52,7 +52,7 @@ public class EggParticleFixClassTransformer implements IClassTransformer {
 		}
 		catch (Exception var8) 
 		{
-			throw new RuntimeException("[Egg Particle Fix]: Error overriding " + name + " from " + location.getName(), var8);
+			throw new RuntimeException("[Egg Particle Fix]: Error overriding " + className + " from " + location.getName(), var8);
 		}
 	}
 }
