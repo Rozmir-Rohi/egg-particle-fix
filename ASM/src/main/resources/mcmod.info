@@ -5,7 +5,7 @@
   "description": "Uses ASM to fix the egg particles for Minecraft 1.7.10",
   "version": "1.0",
   "mcversion": "1.7.10",
-  "url": "https://modrinth.com/project/egg-particle-fix",
+  "url": "https://www.curseforge.com/minecraft/mc-mods/egg-particle-fix",
   "updateUrl": "",
   "authorList": ["Rozmir"],
   "credits": "",
