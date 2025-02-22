@@ -1,4 +1,9 @@
 # Egg Particle Fix
+**Project Status:** Finished & Finalized
+
+*The developer of this project is retired and does not respond to private messages or GitHub issues.*
+<br><br>
+
 Fixes MC-7807 (https://bugs.mojang.com/browse/MC-7807).
 <br>
 This project fixes the bug in 1.7.10 that used to make thrown eggs create snowball particles when they hit a block.
